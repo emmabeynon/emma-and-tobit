@@ -1,21 +1,22 @@
 ## Emma and Tobit's Wedding
 
 #### User Stories
+```
 As a wedding ceremony guest
 So that I can attend the wedding ceremony
 I would like to view the ceremony venue address.
 
 As a wedding ceremony guest
 So that I can attend the wedding ceremony
-I would like to view the time that the wedding starts.
+I would like to view the ceremony venue on a map.
+
+As a wedding ceremony guest
+So that I can attend the wedding ceremony
+I would like to view the time that the ceremony starts.
 
 As a wedding guest
 So that I can attend the evening do
 I would like to view the evening venue address.
-
-As an evening do guest
-So that I can attend the evening do
-I would like to view the time that the evening do starts.
 
 As a wedding guest
 So that I can stay overnight near to the wedding venues
@@ -36,3 +37,4 @@ I would like to RSVP.
 As a wedding ceremony guest
 So that I can eat an appropriate meal
 I would like to let the bride and groom know my dietary requirements.
+```
