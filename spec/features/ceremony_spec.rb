@@ -7,12 +7,16 @@ feature 'Ceremony information' do
   # I would like to view the ceremony venue address.
 
   scenario 'The venue address is displayed' do
-    visit '/'
+    visit '/ceremony'
     expect(page).to have_content('The Asylum Chapel, Caroline Gardens, Peckham, London, SE15 2SQ')
   end
 
+  # As a wedding ceremony guest
+  # So that I can attend the wedding ceremony
+  # I would like to view the ceremony venue address.
+
   scenario 'The ceremony start time is displayed' do
-    visit '/'
+    visit '/ceremony'
     expect(page).to have_content('Arrive at 3.45pm for a 4pm start')
   end
 end
