@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'ceremony#index'
+  root 'welcome#index'
 
-  resources :ceremony, :reception, :accommodation, :rsvp
+  resources :ceremony, :reception, :accommodation, :rsvp, :welcome
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
