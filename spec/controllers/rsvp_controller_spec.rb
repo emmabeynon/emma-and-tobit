@@ -23,6 +23,12 @@ RSpec.describe RsvpController, type: :controller do
     end
 
     context 'if unsuccessful' do
+      it 'does not save the RSVP to the database' do
+        expect{
+          post :create, rsvp: { first_name: 'Tony', last_name: 'Soprano', email: 'tony@sopranos.com' }
+        }.to change{ Rsvp.count }.by(0)
+      end
+
       it 'remains on the RSVP page' do
         post :create, rsvp: { first_name: 'Tony', last_name: 'Soprano', email: 'tony@sopranos.com' }
         expect(response).to render_template :index

@@ -1,0 +1,75 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar .nav {
+  float:none;
+}
+
+.navbar .nav li {
+  display: inline-block;
+  float:none;
+  margin:0 20px;
+  vertical-align: middle;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: #000033;
+  color: #fff;
+}
+
+.navbar .navbar-nav > li a:hover {
+  color: white !important;
+}
+
+.navbar-header a:hover {
+  color: white !important;
+}
+
+.navbar .navbar-nav > li a {
+  color: #777 !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.jumbotron {
+  text-align: center;
+  color: #000033;
+  background-color: #000000;
+  width: 75%;
+}
+
+.content-box {
+  display: inline-block;
+  text-align: left;
+  float:none;
+  margin: 1% 15% 10% 15%;
+}
+
+.form-field {
+  width: 30%;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+#submit-button {
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.radio-button {
+  border-radius: 50%;
+  border-color: #000000;
+}
