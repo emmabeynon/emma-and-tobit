@@ -28,6 +28,8 @@ gem 'underscore-rails'
 
 gem 'gmaps4rails'
 
+gem 'bootstrap-sass'
+
 group :development, :test do
   gem 'byebug'
 end

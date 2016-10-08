@@ -45,4 +45,4 @@ I would like to see some advice regarding wedding gifts.
 
 #### Additional Work
 - Styling
-- Nav bar
+- RSVP thank you page
