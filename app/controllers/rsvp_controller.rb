@@ -9,7 +9,7 @@ class RsvpController < ApplicationController
     @rsvp = Rsvp.new(rsvp_params)
     if @rsvp.save
       flash[:notice] = "Thank you for RSVPing."
-      redirect_to rsvp_index_path
+      render :confirmation
     else
       render :index
     end

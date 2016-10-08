@@ -18,7 +18,7 @@ RSpec.describe RsvpController, type: :controller do
 
       it 'redirects to the RSVP page' do
         post :create, rsvp: { first_name: 'Tony', last_name: 'Soprano', email: 'tony@sopranos.com', rsvp: 'yes' }
-        expect(response).to redirect_to '/rsvp'
+        expect(response).to render_template :confirmation
       end
     end
 

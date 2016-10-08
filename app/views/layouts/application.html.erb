@@ -25,14 +25,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">E & T</a>
+      <%= link_to "E & T", root_path, class: "navbar-brand" %>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/ceremony">The Ceremony</a></li>
-        <li><a href="/reception">The Reception</a></li>
-        <li><a href="/accommodation">Accommodation</a></li>
-        <li><a href="/rsvp">RSVP</a></li>
+        <li><%= link_to "The Ceremony", ceremony_index_path %></li>
+        <li><%= link_to "The Reception", reception_index_path %></li>
+        <li><%= link_to "Accommodation", accommodation_index_path %></li>
+        <li><%= link_to "RSVP", rsvp_index_path %></li>
       </ul>
     </div>
   </div>

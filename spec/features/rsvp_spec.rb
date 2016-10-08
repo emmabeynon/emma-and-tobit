@@ -32,6 +32,6 @@ feature 'RSVP' do
   scenario 'User does not fill in first name, last name, email or RSVP response and the RSVP throws an error' do
     visit '/rsvp'
     click_button('Submit')
-    expect(page).to have_content('You couldn\'t complete your RSVP because 5 errors occurred.')
+    expect(page).to have_content('You couldn\'t complete your RSVP because 5 errors occurred:')
   end
 end
