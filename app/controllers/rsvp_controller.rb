@@ -1,5 +1,4 @@
 class RsvpController < ApplicationController
-
   def index
     @rsvp = Rsvp.new
     render :index

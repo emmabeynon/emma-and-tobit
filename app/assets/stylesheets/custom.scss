@@ -1,6 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+a {
+  text-decoration: none !important;
+}
+
 .navbar .nav {
   float:none;
 }
@@ -40,6 +44,7 @@ h2 {
 h3 {
   text-align: center;
 }
+
 
 .jumbotron {
   text-align: center;
