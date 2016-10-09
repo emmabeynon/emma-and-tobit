@@ -38,11 +38,7 @@ I would like to RSVP.
 So that I can eat an appropriate meal
 I would like to let the bride and groom know my dietary requirements.
 
-As a wedding guest
+[DONE] As a wedding guest
 So that I can choose an appropriate wedding gift
 I would like to see some advice regarding wedding gifts.
 ```
-
-#### Additional Work
-- Styling
-- RSVP thank you page
