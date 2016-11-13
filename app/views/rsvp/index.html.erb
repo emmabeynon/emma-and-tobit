@@ -3,7 +3,7 @@
   <div class="jumbotron content-box">
     <div class="row">
       <div class="col-md-12">
-        <h4>Please RSVP by XX.</h4>
+        <h4>Please RSVP by 13th April 2017.</h4>
       </div>
     </div>
     <p>
@@ -50,9 +50,10 @@
         </div>
         <div class="col-md-10">
           <%= f.radio_button :rsvp, 'yes', class: "form-check-input", item_wrapper_class: "inline" %>
-          <%= f.label :rsvp_yes, 'Able to attend', class: "form-check-inline" %>
+          <%= f.label :rsvp_yes, 'Yes, I can\'t wait!', class: "form-check-inline" %>
+          <br>
           <%= f.radio_button :rsvp, 'no', class: "form-check-input", item_wrapper_class: "inline" %>
-          <%= f.label :rsvp_no, 'Unable to attend', class: "form-check-inline" %>
+          <%= f.label :rsvp_no, 'No, gutted I can\'t make it', class: "form-check-inline" %>
         </div>
       </div>
 

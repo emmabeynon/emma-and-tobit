@@ -45,4 +45,3 @@ I would like to see some advice regarding wedding gifts.
 
 #### To Do
 - Add wedding gift information
-- Update RSVP date
