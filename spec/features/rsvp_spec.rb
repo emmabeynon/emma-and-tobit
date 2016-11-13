@@ -4,12 +4,12 @@ feature 'RSVP' do
   # As a wedding guest
   # So that I can let the bride and groom know if I am attending
   # I would like to RSVP.
-  scenario 'User RSVP\'s "Yes" with no dietary requirements or additional comments' do
+  scenario 'User RSVP\'s "No" with no dietary requirements or additional comments' do
     visit '/rsvp'
     fill_in('First Name', with: 'Carmela')
     fill_in('Last Name', with: 'Soprano')
     fill_in('Email', with: 'carmela@sopranos.com')
-    choose('Able to attend')
+    choose('No, gutted I can\'t make it')
     click_button('Submit')
     expect(page).to have_content('Thank you for RSVPing')
   end
@@ -22,7 +22,7 @@ feature 'RSVP' do
     fill_in('First Name', with: 'Meadow')
     fill_in('Last Name', with: 'Soprano')
     fill_in('Email', with: 'carmela@sopranos.com')
-    page.choose('Able to attend')
+    page.choose('Yes, I can\'t wait!')
     fill_in('Dietary Requirements', with: 'Vegetarian')
     fill_in('Anything else?', with:'I can\'t wait!')
     click_button('Submit')
