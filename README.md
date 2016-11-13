@@ -44,7 +44,5 @@ I would like to see some advice regarding wedding gifts.
 ```
 
 #### To Do
-- Add hotel information
 - Add wedding gift information
 - Update RSVP date
-- Update reception details
