@@ -42,3 +42,9 @@ I would like to let the bride and groom know my dietary requirements.
 So that I can choose an appropriate wedding gift
 I would like to see some advice regarding wedding gifts.
 ```
+
+#### To Do
+- Add hotel information
+- Add wedding gift information
+- Update RSVP date
+- Update reception details
