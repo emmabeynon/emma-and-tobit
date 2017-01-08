@@ -15,6 +15,6 @@ class RsvpController < ApplicationController
   end
 
   def rsvp_params
-    params.require(:rsvp).permit(:first_name, :last_name, :email, :rsvp)
+    params.require(:rsvp).permit(:first_name, :last_name, :email, :rsvp, :dietary_requirements, :anything_else)
   end
 end
