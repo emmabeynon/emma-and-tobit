@@ -1,4 +1,4 @@
-class CreateRsvps < ActiveRecord::Migration
+class CreateRsvps < ActiveRecord::Migration[5.1]
   def change
     create_table :rsvps do |t|
       t.string :first_name

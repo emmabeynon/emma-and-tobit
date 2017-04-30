@@ -1,4 +1,4 @@
-class Rsvp < ActiveRecord::Base
+class Rsvp < ApplicationRecord
   validates :first_name, :last_name, :email, :rsvp, presence: true
   validates :email, uniqueness: true
   validates :first_name, uniqueness: { scope: :last_name }
